@@ -3,7 +3,15 @@
 
 ## Overview ##
 
-The main objective of refactoring this codebase is to improve acccessibility for end users with disabilities and also to optimise Search Engine Optimization (SEO) of the application as outlined in the user story set by the client. In order to tackle the project as a whole, I will first focus on the HTML followed by the CSS. 
+The main objective of refactoring this codebase is to improve acccessibility for end users with disabilities and also to optimise Search Engine Optimization (SEO) of the application as outlined in the user story set by the client:
+
+```
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
+```
+
+In order to tackle the project as a whole, I will first focus on the HTML followed by the CSS. 
 
 ## Part 1: HTML Changes ##
 
@@ -25,4 +33,24 @@ I decided to change the HTML structure with HTML5 semantic elements such as `<he
 
 * The first `<section>` of the `<main>` element with class `search-engine-optimization` was missing id attribute, causing link in nav bar to not work. fixed by inserting `id="search-engine-optimization"` into first `<section>` opening tag.
 
-* I have inserted alt attributes for every single image in each of the sections of the `<main>` and `<aside>` element. This includes accompanying concise descriptions to describe the image. This will help improve accessibility especially those who are visually impaired and rely on a screen reader.
+* I have inserted `alt` attributes for every single image in each of the sections of the `<main>` and `<aside>` element. This includes accompanying concise descriptions to describe the image. This will help improve accessibility especially those who are visually impaired and rely on a screen reader.
+
+
+## Part 2: CSS Changes ##
+
+* The CSS for the `<nav>` in the `<header>` element containing the navigation links with selectors such as `.header div` and `.header div ul` and `.header div ul li` stopped working because of changing HTML structure in Part 1 by replacing `<div>` with `<nav>`. I changed the div in the selectors to nav instead. 
+
+* Changed selector `.header h1 .seo` to `.header h1 .seo-title` to reflect name change of class attribute from `.seo` to `.seo-title` as previous CSS stopped working. 
+
+* Removed the CSS for `p {
+  font-size: 16px;
+}` as default font size for p is already 16 pixels. No need to specify in stylesheet, just extra dead code. 
+
+* Changed selector of `.hero` to `.hero-image` of hero banner to reflect change in naming selector to being more specific. 
+
+* Used grouping selector to group together the CSS selectors used for the `<aside>` bar like `.benefit-lead`, `.benefit-brand`, `.benefit-cost` as they all share the same styling. clear codebase of extra clutter. likewise for `.benefit-lead h3`, `.benefit-brand h3`, `.benefit-cost h3` and `.benefit-lead img`, `.benefit-brand img`, `.benefit-cost img` I grouped together these selectors that share the same similar styling.
+
+* Used grouping selector to group together the selectors used for `<main>` sections for `.search-engine-optimization`, `.online-reputation-management`, `.social-media-marketing` also `.search-engine-optimization img`, `.online-reputation-management img`, `.social-media-marketing img` and `.search-engine-optimization h2`, `.online-reputation-management h2`, `.social-media-marketing h2` since the 3 groups of selectors share the same CSS styling, in order to remove further unnecesary code. 
+
+* Changed Selector in footer `.footer h2` to `.footer h4` to reflect change of Heading element so they fall in sequential order. 
+
