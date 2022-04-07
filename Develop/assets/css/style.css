@@ -1,4 +1,15 @@
-/* || Global/Reset Styles || */
+/* use cmd + f to navigate to relevant section, eg. typing 6.  will take you to Footer Styles */
+
+/* || Contents || */
+
+/* || 1. General/Reset Styles|| */
+/* || 2. Header and Main Navigation Styles  || */
+/* || 3. Hero Banner Styles || */
+/* || 4. Main Styles || */
+/* || 5. Aside Styles || */
+/* || 6. Footer Styles || */
+
+/* || 1. General/Reset Styles || */
 
 * {
   box-sizing: border-box;
@@ -10,7 +21,7 @@ body {
   background-color: #d9dcd6;
 }
 
-/* || Header and Main Navigation Styles || */
+/* || 2. Header and Main Navigation Styles || */
 
 .header {
   padding: 20px;
@@ -51,7 +62,7 @@ a {
   color: #ffffff;
 }
 
-/* || Hero Banner Styles || */
+/* || 3. Hero Banner Styles || */
 
 .hero-image {
   height: 800px;
@@ -62,7 +73,7 @@ a {
   background-position: center;
 }
 
-/* || Main Styles || */
+/* || 4. Main Styles || */
 
 .float-left {
   float: left;
@@ -104,7 +115,7 @@ a {
   font-size: 36px;
 }
 
-/* || Aside Styles || */
+/* || 5. Aside Styles || */
 
 .benefits {
   margin-right: 20px;
@@ -139,7 +150,7 @@ a {
   max-width: 150px;
 }
 
-/* || Footer Styles || */
+/* || 6. Footer Styles || */
 
 .footer {
   padding: 30px;
