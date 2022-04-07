@@ -41,7 +41,7 @@ a {
   font-size: 48px;
 }
 
-.header h1 .seo-title {
+.seo-title {
   color: #d9dcd6;
 }
 
@@ -53,11 +53,11 @@ a {
   font-size: 20px;
 }
 
-.header nav ul {
+.nav-menu ul {
   list-style-type: none;
 }
 
-.header li {
+.nav-menu li {
   display: inline-block;
   margin-left: 25px;
 }

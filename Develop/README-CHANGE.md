@@ -50,6 +50,8 @@ I decided to change the HTML structure with HTML5 semantic elements such as `<he
 
 - Changed Selector in footer `.footer h2` to `.footer h4` to reflect change of Heading element so they fall in sequential order.
 
-- Header nav selector `.header nav ul li` overly specific, with specificity of (0,0,1,3) it will make it very difficult in the future to overide this style. Decided to use a class selector called `nav-menu` for `<nav>` and changed selector to `.nav-menu li` reducing specificity to (0,0,1,1). also for selector '.header nav ul`, I changed to `.nav-menu ul` reducing specificity and keeping it low - easier for maintainablity and overide styles later on. 
+- Header nav selector `.header nav ul li` overly specific, with specificity of (0,0,1,3) it will make it very difficult in the future to overide this style. Decided to use a class selector called `nav-menu` for `<nav>` and changed selector to `.nav-menu li` reducing specificity to (0,0,1,1). also for selector '.header nav ul`, I changed to `.nav-menu ul` reducing specificity and keeping it low - easier for maintainablity and overide styles later on.
 
 - Header selector `.header h1 .seo-title` again is over specific with 2 class selectors and a type selector. Would make it difficult to override style in the future. changed to just '.seo-title' as this class selector is directly targeting the `<span>` element for which we are applying the style to.
+
+- I added comments in my CSS to help divide different sections of my CSS in a logical order like viewing the HTML document from top to bottom starting from `<header>` going down to the `<footer>`so the client and future developers maintaining the application can easily navigate through the CSS as I included Contents Table with numbered sections, they can easily navigate using the find function.
