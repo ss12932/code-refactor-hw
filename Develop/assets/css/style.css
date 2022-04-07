@@ -1,5 +1,3 @@
-/* use cmd + f to navigate to relevant section, eg. typing 6.  will take you to Footer Styles */
-
 /* || Contents || */
 
 /* || 1. General/Reset Styles|| */
@@ -8,6 +6,8 @@
 /* || 4. Main Styles || */
 /* || 5. Aside Styles || */
 /* || 6. Footer Styles || */
+
+/* use cmd + f to navigate to relevant section, eg. typing 6.  will take you to Footer Styles */
 
 /* || 1. General/Reset Styles || */
 
@@ -19,6 +19,11 @@
 
 body {
   background-color: #d9dcd6;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /* || 2. Header and Main Navigation Styles || */
@@ -55,11 +60,6 @@ body {
 .header nav ul li {
   display: inline-block;
   margin-left: 25px;
-}
-
-a {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 /* || 3. Hero Banner Styles || */
