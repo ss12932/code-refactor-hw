@@ -1,6 +1,6 @@
-# Horiseon Codebase Refactor
+# Horiseon Codebase Refactor #
 
-## Overview
+## Overview ##
 
 ![Horiseon Application Screenshot](./assets/images/01-html-css-git-homework-demo.png)
 
@@ -14,7 +14,15 @@ SO THAT our own site is optimized for search engines
 
 In order to tackle the project as a whole, I will first focus on the HTML followed by the CSS.
 
-## Part 1: HTML Changes
+### GitHub Repository URL ###
+
+[https://github.com/ss12932/horiseon-code-refactor]
+
+### Live Deployed Application URL ###
+
+[https://ss12932.github.io/horiseon-code-refactor/]
+
+### Part 1: HTML Changes ###
 
 I decided to change the HTML structure with HTML5 semantic elements such as `<header>`, `<main>`, `<section>`, `<nav>`, `<aside>` and `<footer>`. This will not only provide much more meaningful structure but also will help improve SEO and allow the webpage to become more relevant during web searches. The reason for this change is the whole web page is constructed entirely with `<div>` tags which doesn't give much information or purpose with regards to the HTMl structure semantics-wise. Here are the detailed changes outlined below:
 
@@ -36,7 +44,7 @@ I decided to change the HTML structure with HTML5 semantic elements such as `<he
 
 - I have inserted `alt` attributes for every single image in each of the sections of the `<main>` and `<aside>` element. This includes accompanying concise descriptions to describe the image. This will help improve accessibility especially those who are visually impaired and rely on a screen reader.
 
-## Part 2: CSS Changes
+### Part 2: CSS Changes ###
 
 - The CSS for the `<nav>` in the `<header>` element containing the navigation links with selectors such as `.header div` and `.header div ul` and `.header div ul li` stopped working because of changing HTML structure in Part 1 by replacing `<div>` with `<nav>`. I changed the div in the selectors to nav instead.
 
