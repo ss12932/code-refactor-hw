@@ -2,19 +2,19 @@
 
 ## Overview
 
-The main objective of refactoring this codebase is to improve acccessibility for end users with disabilities and also to optimise Search Engine Optimization (SEO) of the application as outlined in the user story set by the client:
+The main objective of refactoring this codebase is to improve acccessibility for end users with disabilities and also to optimise Search Engine Optimization (SEO) of the application as outlined in the user story set by the client. In order to tackle the project as a whole, I will first focus on the HTML, including structure, functionality and also naming conventions followed by the CSS like specificity and drying up code.
 
 ### Screenshot of Deployed Application
 
 ![Horiseon Application Screenshot](./Assets/images/01-html-css-git-homework-demo.png)
+
+### User Story ###
 
 ```
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 ```
-
-In order to tackle the project as a whole, I will first focus on the HTML, including structure, functionality and also naming conventions followed by the CSS like specificity and drying up code.
 
 ### GitHub Repository URL
 
