@@ -2,7 +2,7 @@
 
 ## Overview
 
-(Assets/images/01-html-css-git-homework-demo.png)
+!Horiseon Application Screenshot](./assets/01-html-css-git-homework-demo.png)
 
 The main objective of refactoring this codebase is to improve acccessibility for end users with disabilities and also to optimise Search Engine Optimization (SEO) of the application as outlined in the user story set by the client:
 
