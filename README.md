@@ -26,7 +26,7 @@ SO THAT our own site is optimized for search engines
 
 ### Part 1: HTML Changes
 
-I decided to change the HTML structure with HTML5 semantic elements such as `<header>`, `<main>`, `<section>`, `<nav>`, `<aside>` and `<footer>`. This will not only provide much more meaningful structure but also will help improve SEO and allow the webpage to become more relevant during web searches. The reason for this change is the whole web page is constructed entirely with `<div>` tags which doesn't give much information or purpose with regards to the HTMl structure semantics-wise. Here are the detailed changes outlined below:
+I decided to change the HTML structure with HTML5 semantic elements such as `<header>`, `<main>`, `<section>`, `<nav>`, `<aside>` and `<footer>`. This will not only provide much more meaningful structure but also will help improve SEO and allow the webpage to become more relevant during web searches. The reason for this change is the whole web page is constructed entirely with `<div>` tags which doesn't give much information or purpose with regards to the HTML structure semantics-wise. Here are the detailed changes outlined below:
 
 - Located at the top of the webpage, The main `<div>` wrapper with class `header` was changed with `<header>` element. Also nested `<div>` tag containing `<ul>` of navigation links changed with `<nav>` element instead.
 
